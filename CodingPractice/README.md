@@ -81,7 +81,10 @@ True
 
 `Math` 클래스의 정적 메서드를 사용하여 수학 연산을 수행하세요.
 
-- `Math.Sqrt(16)`, `Math.Pow(2, 3)`, `Math.Max(10, 20)`, `Math.Min(10, 20)`을 호출합니다
+- `Math.Sqrt(16)`, 
+- `Math.Pow(2, 3)`, 
+- `Math.Max(10, 20)`, 
+- `Math.Min(10, 20)`을 호출합니다
 - 각 결과를 출력합니다
 
 **실행 결과**
@@ -153,7 +156,8 @@ Hello World
 
 문자열의 기본 메서드를 체이닝하여 처리하세요.
 
-- `"  Hello World  "` 문자열을 `Trim()`, `ToLower()`, `Replace(" ", "_")`으로 순서대로 처리합니다
+- `"  Hello World  "` 문자열을 `Trim()`, `ToLower()`,
+- `Replace(" ", "_")`으로 순서대로 처리합니다
 - 결과를 출력합니다
 
 **실행 결과**
@@ -186,8 +190,10 @@ hello_world
 상태를 변경할 수 없는 불변 형식 `ImmutableCircle` 클래스를 구현하세요.
 
 - `Radius` 속성을 `get`만으로 정의합니다 (읽기 전용)
-- `WithRadius(int newRadius)` 메서드는 새 `ImmutableCircle` 객체를 반환합니다
-- 반지름 10으로 생성하고, `WithRadius(20)`으로 새 원을 만들어 원본과 비교합니다
+- `WithRadius(int newRadius)` 메서드는 새
+- `ImmutableCircle` 객체를 반환합니다
+- 반지름 10으로 생성하고, `WithRadius(20)`으로 
+- 새 원을 만들어 원본과 비교합니다
 
 **실행 결과**
 
